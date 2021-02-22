@@ -1,0 +1,52 @@
+.homepage {
+  height: 90vh;
+  background: url("../images/bghomepage.jpg") center/cover
+}
+
+.homepage h1 {
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  padding-top: 30vh;
+  text-shadow: 1px 0 5px #1c1c1c;
+}
+
+.homepage h3 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  padding-top: 2.5em;
+  text-shadow: 1px 0 5px #1c1c1c;
+}
+
+.buttons {
+  margin: 3em auto;
+  text-align: center;
+}
+
+.homepage__button {
+  padding: 1em 3em;
+  margin: 0 1em 0 1em;
+  border: 4px solid white;
+  border-radius: 3px;
+  font-size: 1.25em;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.button-contact {
+  background: #00897b;
+  border: 4px solid #00897b;
+}
+
+.homepage__button:hover {
+  transition: 0.2s;
+}
+
+.button-contact:hover,
+.button-portfolio:hover {
+  border: 4px solid white;
+  background: rgba(38, 38, 38, 0.53);
+}
