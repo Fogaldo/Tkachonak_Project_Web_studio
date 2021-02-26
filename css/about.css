@@ -1,0 +1,33 @@
+main{
+    position: relative;
+    margin: 10%;
+}
+.about-tag {
+    text-align: center;
+    margin: 3em 0;
+}
+
+.about-tag h1 {
+    margin: 0.65em 0;
+    font-size: 2em;
+}
+
+.about-tag p {
+    margin: 0 auto;
+    width: 40vw;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.about-info__card {
+    display: inline-block;
+    width: 20em;
+    text-align: center;
+    margin: 1em 2em;
+}
+
+.about-info__card svg {
+    width: 7em;
+}
