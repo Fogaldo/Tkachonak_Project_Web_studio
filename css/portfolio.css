@@ -1,0 +1,51 @@
+main {
+  background: #f0f1f1;
+}
+
+.filter-container {
+  text-align: center;
+}
+
+.select__button {
+  display: inline-block;
+  width: 10rem;
+  height: 3rem;
+  margin: 0.5rem 1.5rem;
+  border: 1px solid #000000;
+  border-radius: 0.1em;
+  background: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.select__button:hover {
+  border: 1px solid #58bfb1;
+  background: #58bfb1;
+  color: white;
+}
+
+.select__button:active {
+  background: #00897b;
+  border: 1px solid #00897b;
+  color: white;
+}
+
+.filter-container {
+  margin: 1rem 0;
+}
+
+.portfolio-container {
+  text-align: center;
+}
+
+.info__image {
+  display: inline-block;
+  width: 50%;
+  margin: 1rem 2rem;
+}
+
+.info__description {
+  display: inline-block;
+  margin-top: -5rem;
+  width: 45%;
+}

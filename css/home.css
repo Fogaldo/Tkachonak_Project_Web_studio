@@ -5,18 +5,18 @@
 
 .homepage h1 {
   font-size: 3em;
-  color: white;
+  color: var(--h-tag-color);
   text-align: center;
   padding-top: 30vh;
-  text-shadow: 1px 0 5px #1c1c1c;
+  text-shadow: 1px 0 5px var(--shadow);
 }
 
 .homepage h3 {
   text-align: center;
-  color: white;
+  color: var(--h-tag-color);
   font-size: 2rem;
   padding-top: 2.5em;
-  text-shadow: 1px 0 5px #1c1c1c;
+  text-shadow: 1px 0 5px var(--shadow);
 }
 
 .buttons {
@@ -25,15 +25,16 @@
 }
 
 .homepage__button {
-  padding: 1em 3em;
-  margin: 0 1em 0 1em;
+  display: inline-block;
+  width: 15rem;
+  padding: 1em;
+  margin: 1rem;
   border: 4px solid white;
   border-radius: 3px;
+  color: white;
   font-size: 1.25em;
   text-decoration: none;
-  color: white;
   text-transform: uppercase;
-  display: inline-block;
 }
 
 .button-contact {

@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/shared.css">
-    <link rel="stylesheet" href="../css/style_servicing.css">
+    <link rel="stylesheet" href="../css/servicing.css">
     <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
@@ -15,9 +15,9 @@
   <body>
     <header class="main-header">
       <!--Logo-->
-      <div>
+      <div class="logo">
         <a title="Pro Web" href="home.html" class="header_logo">
-          <img src="../images/logo.png" alt="logo">
+          <img src="../images/logo1.png" alt="logo">
         </a>
       </div>
       <!--Menu from header-->
@@ -26,15 +26,15 @@
           <li><a href="../html/home.html">Home</a></li>
           <li><a href="../html/about.html">About</a></li>
           <li><a href="../html/servicing.html">Servicing</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact us</a></li>
+          <li><a href="../html/portfolio.html">Portfolio</a></li>
+          <li><a href="../html/blog.html">Blog</a></li>
+          <li><a href="../html/contact.html">Contact us</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="main-section">
-        <div class="main-section-info-tag">
+        <div class="about-tag">
           <h1>Our Services</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos eos eveniet exercitationem
             nemo quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quisquam.</p>
@@ -112,6 +112,53 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore earum eius omnis rem.</p>
             <a href="#">Read more</a>
           </div>
+        </div>
+      </section>
+      <section class="plan">
+        <section class="about-tag">
+          <h1>Pricing Plan</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut dolorum eligendi
+            nihil obcaecati vitae voluptate!
+          </p>
+        </section>
+        <div class="plan__card">
+          <div class="plan__card-header">
+            <h1 class="plan__card-header-title">Free Trail</h1>
+            <p class="plan__card-header-value"><sup>$</sup>00<sub>per month</sub></p>
+          </div>
+          <ul class="plan__card__features">
+            <li>30 Free Trail</li>
+            <li>5 Free Projects</li>
+            <li>PHP 5 Enabled</li>
+            <li>24/7 Supports</li>
+          </ul>
+          <a class="plan__card__cta-btn" role="button" href="#">Order now</a>
+        </div>
+        <div class="plan__card">
+          <div class="plan__card-header">
+            <h1 class="plan__card-header-title">Basic</h1>
+            <p class="plan__card-header-value"><sup>$</sup>50<sub>per month</sub></p>
+          </div>
+          <ul class="plan__card__features">
+            <li>30 Free Trail</li>
+            <li>5 Free Projects</li>
+            <li>PHP 5 Enabled</li>
+            <li>24/7 Supports</li>
+          </ul>
+          <a class="plan__card__cta-btn" role="button" href="#">Order now</a>
+        </div>
+        <div class="plan__card">
+          <div class="plan__card-header">
+            <h1 class="plan__card-header-title">Ultimates</h1>
+            <p class="plan__card-header-value"><sup>$</sup>99<sub>per month</sub></p>
+          </div>
+          <ul class="plan__card__features">
+            <li>30 Free Trail</li>
+            <li>5 Free Projects</li>
+            <li>PHP 5 Enabled</li>
+            <li>24/7 Supports</li>
+          </ul>
+          <a class="plan__card__cta-btn" role="button" href="#">Order now</a>
         </div>
       </section>
     </main>
