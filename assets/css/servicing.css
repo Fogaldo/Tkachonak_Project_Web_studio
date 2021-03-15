@@ -153,6 +153,7 @@ main {
 }
 
 .plan__card__cta-btn:hover {
+  border: 2px solid var(--button-border-hover);
   background: var(--button-bg-hover);
   color: var(--button-text-color-hover);
   transition: 0.2s;

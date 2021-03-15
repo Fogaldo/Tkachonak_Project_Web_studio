@@ -1,5 +1,6 @@
 .main-about {
   background: var(--main-background);
+  padding-bottom: 5rem;
 }
 
 .about-tag {
@@ -7,7 +8,6 @@
 }
 
 .about-info {
-  height: 80vh;
   text-align: center;
 }
 

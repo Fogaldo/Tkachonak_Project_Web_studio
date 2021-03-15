@@ -1,6 +1,9 @@
-.homepage {
-  height: 100vh;
-  background: url("../images/bghomepage.jpg") center/cover
+/* .bg-page{
+    background: url("../images/bghomepage.jpg") center/cover;
+} */
+
+body{
+  background: url("../images/bghomepage.jpg") center/cover;
 }
 
 .homepage h1 {
@@ -50,4 +53,8 @@
 .button-portfolio:hover {
   border: 4px solid white;
   background: rgba(38, 38, 38, 0.53);
+}
+
+.main-footer{
+  position: static;
 }

@@ -1,6 +1,8 @@
+body{
+  background: url(../images/bgcontactpage.jpg) center/cover;;
+}
+
 .contact {
-  background: url("../images/bgcontactpage.jpg");
-  width: 100%;
   color: white;
   text-align: center;
 }
