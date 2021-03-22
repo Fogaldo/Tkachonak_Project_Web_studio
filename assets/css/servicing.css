@@ -23,7 +23,7 @@ main {
   padding: 3rem;
   display: inline-block;
   border-radius: 0.15rem;
-  box-shadow: 0 0px 28px -20px #1c1c1c;
+  box-shadow: 0 0 28px -20px #1c1c1c;
 }
 
 .servicing__card svg {
@@ -61,7 +61,7 @@ main {
 .servicing__card:hover {
   background: #00897b;
   color: white;
-  box-shadow: 0 0px 27px 0px #1c1c1c;
+  box-shadow: 0 0 27px 0 #1c1c1c;
   transition: 0.2s;
 }
 
@@ -116,7 +116,7 @@ main {
   bottom: 0;
   border: 50px solid transparent;
   border-right: 20rem solid var(--card-bg);
-  border-bottom: 0px solid var(--card-bg);
+  border-bottom: 0 solid var(--card-bg);
 }
 
 .plan__card__features {
@@ -136,7 +136,7 @@ main {
   display: block;
   width: 55%;
   margin: 2rem auto;
-  padding: 1rem 0rem;
+  padding: 1rem 0;
   border: 2px solid var(--button-border);
   border-radius: 0.3rem;
 
@@ -148,7 +148,7 @@ main {
 }
 
 .plan__card:hover {
-  box-shadow: 0 0px 28px -20px var(--shadow);
+  box-shadow: 0 0 28px -20px var(--shadow);
   transition: 0.2s;
 }
 

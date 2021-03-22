@@ -1,7 +1,11 @@
-.main-about {
+.main-content{
+  background: var(--main-background);
+}
+
+/*.main-about {
   background: var(--main-background);
   padding-bottom: 5rem;
-}
+}*/
 
 .about-tag {
   padding-top: 10rem;
