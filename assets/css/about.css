@@ -1,14 +1,9 @@
 .main-content{
-  background: var(--main-background);
+  background: white;
 }
 
-/*.main-about {
-  background: var(--main-background);
-  padding-bottom: 5rem;
-}*/
-
 .about-tag {
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 
 .about-info {
@@ -17,12 +12,20 @@
 
 .about-info__card {
   display: inline-block;
-  width: 20em;
-  text-align: center;
-  margin: 1em 2em;
+  margin: 1rem 2rem;
 }
 
-.about-info__card svg {
-  width: 7em;
+.about-info__card img {
+  width: 70%;
   margin-bottom: 1em;
+}
+
+.name{
+  font-size: 2rem;
+}
+
+.position{
+  margin: 0.625rem;
+  font-size: 1.25em;
+  color: var(--graphite-black);
 }

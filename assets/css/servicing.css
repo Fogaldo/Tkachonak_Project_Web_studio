@@ -1,160 +1,137 @@
-main {
-  background: var(--main-background);
-}
-
-.main-section {
-  text-align: center;
+.main-content{
+    background: var(--main-background);
 }
 
 .main-section-info-tag {
-  padding: 10rem 0 1rem 0;
+    padding: 10rem 0 1rem 0;
 }
 
 .main-section-servicing-cards {
-  margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .servicing__card {
-  position: relative;
-  width: 20rem;
-  height: 27rem;
-  background: white;
-  margin: 1rem 1rem;
-  padding: 3rem;
-  display: inline-block;
-  border-radius: 0.15rem;
-  box-shadow: 0 0 28px -20px #1c1c1c;
-}
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 
-.servicing__card svg {
-  width: 5rem;
+    width: 19rem;
+    min-height: 20rem;
+    background: white;
+    margin: 1rem 1rem;
+    padding: 3rem;
+    border-radius: 0.15rem;
+    box-shadow: 0 0 28px -20px #1c1c1c;
+    text-align: left;
 }
 
 .servicing__card h2 {
-  padding: 1rem 0;
+    padding: 1rem 0;
 }
 
 .servicing__card p {
-  font-size: 0.8125rem;
-}
-
-.servicing__card a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-  position: absolute;
-  border: 2px solid #000;
-  margin-left: -3.5em;
-  padding: 0.625em 1em;
-  left: 50%;
-  bottom: 2.875rem;
-  border-radius: 0.3rem;
-  transition: 0.2s;
-}
-
-.servicing__card a:hover {
-  border: 2px solid white;
-  color: white;
-
+    font-size: 0.8125rem;
 }
 
 .servicing__card:hover {
-  background: #00897b;
-  color: white;
-  box-shadow: 0 0 27px 0 #1c1c1c;
-  transition: 0.2s;
+    background: #00897b;
+    color: white;
+    box-shadow: 0 0 27px 0 #1c1c1c;
+    transition: 0.2s;
 }
 
 .plan {
-  text-align: center;
-  padding-bottom: 8rem;
+    text-align: center;
+    padding-bottom: 8rem;
 }
 
 .plan__card {
-  display: inline-block;
-  margin: 1rem;
-  width: 20rem;
-  border-bottom: 1px solid var(--border);
-  background: var(--card-bg);
-  text-align: center;
+    display: inline-block;
+    margin: 1rem;
+    width: 20rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--card-bg);
+    text-align: center;
 }
 
 .plan__card-header {
-  position: relative;
-  border-radius: 0.15rem;
-  background: var(--card-bg-header);
-  color: var(--text-color-header);
+    position: relative;
+    border-radius: 0.15rem;
+    background: var(--card-bg-header);
+    color: var(--text-color-header);
 }
 
 .plan__card-header-title {
-  padding-top: 2rem;
+    padding-top: 2rem;
 }
 
 .plan__card-header-value {
-  padding: 1rem 0 3.5rem 0;
-  font-size: 3rem;
+    padding: 1rem 0 3.5rem 0;
+    font-size: 3rem;
 }
 
 .plan__card-header-value sup {
-  position: relative;
-  top: -5px;
-  margin-right: 0.5rem;
-  font-size: 1rem;
+    position: relative;
+    top: -5px;
+    margin-right: 0.5rem;
+    font-size: 1rem;
 }
 
 .plan__card-header-value sub {
-  position: relative;
-  bottom: 10px;
-  margin-left: 0.5rem;
-  font-size: 1rem;
+    position: relative;
+    bottom: 10px;
+    margin-left: 0.5rem;
+    font-size: 1rem;
 }
 
 .plan__card-header::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  border: 50px solid transparent;
-  border-right: 20rem solid var(--card-bg);
-  border-bottom: 0 solid var(--card-bg);
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 50px solid transparent;
+    border-right: 20rem solid var(--card-bg);
+    border-bottom: 0 solid var(--card-bg);
 }
 
 .plan__card__features {
-  margin: 1rem auto;
-  width: 40%;
-  color: var(--list-text-color);
+    margin: 1rem auto;
+    width: 40%;
+    color: var(--list-text-color);
 }
 
 .plan__card__features li {
-  margin-bottom: 1rem;
-  padding-bottom: 0.55rem;
-  border-bottom: 1px solid var(--border);
-  list-style: none;
+    margin-bottom: 1rem;
+    padding-bottom: 0.55rem;
+    border-bottom: 1px solid var(--border);
+    list-style: none;
 }
 
 .plan__card__cta-btn {
-  display: block;
-  width: 55%;
-  margin: 2rem auto;
-  padding: 1rem 0;
-  border: 2px solid var(--button-border);
-  border-radius: 0.3rem;
+    display: block;
+    width: 55%;
+    margin: 2rem auto;
+    padding: 1rem 0;
+    border: 2px solid var(--button-border);
+    border-radius: 0.3rem;
 
-  background: var(--button-bg);
-  color: var(--button-text-color);
+    background: var(--button-bg);
+    color: var(--button-text-color);
 
-  text-decoration: none;
-  text-transform: uppercase;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .plan__card:hover {
-  box-shadow: 0 0 28px -20px var(--shadow);
-  transition: 0.2s;
+    box-shadow: 0 0 28px -20px var(--shadow);
+    transition: 0.2s;
 }
 
 .plan__card__cta-btn:hover {
-  border: 2px solid var(--button-border-hover);
-  background: var(--button-bg-hover);
-  color: var(--button-text-color-hover);
-  transition: 0.2s;
+    border: 2px solid var(--button-border-hover);
+    background: var(--button-bg-hover);
+    color: var(--button-text-color-hover);
+    transition: 0.2s;
 }
