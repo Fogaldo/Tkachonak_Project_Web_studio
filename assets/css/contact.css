@@ -1,7 +1,7 @@
-.bg-page{
+.bg-page {
   position: fixed;
   top: 0;
-  left: 0 ;
+  left: 0;
   width: 100%;
   height: 100vh;
   background: url(../images/bgcontactpage.jpg) center/cover;;
@@ -35,6 +35,16 @@
   top: 1.5rem;
   left: 50%;
   width: 3rem;
+}
+
+.mail {
+  position: absolute;
+  left: 37%;
+  top: 0.4rem;
+}
+
+.mail svg {
+  width: 5rem;
 }
 
 .contact-form {
@@ -82,6 +92,7 @@
   text-transform: uppercase;
   cursor: pointer;
   outline: none;
+  transition: 0.2s;
 }
 
 .btn-contact:hover {

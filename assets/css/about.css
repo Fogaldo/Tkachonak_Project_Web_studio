@@ -1,4 +1,4 @@
-.main-content{
+.main-content {
   background: white;
 }
 
@@ -20,11 +20,11 @@
   margin-bottom: 1em;
 }
 
-.name{
+.name {
   font-size: 2rem;
 }
 
-.position{
+.position {
   margin: 0.625rem;
   font-size: 1.25em;
   color: var(--graphite-black);

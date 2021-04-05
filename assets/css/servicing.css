@@ -1,137 +1,46 @@
-.main-content{
-    background: var(--main-background);
+.about-tag {
+  padding: 5rem 0 0 0;
+}
+
+.main-content {
+  background: var(--main-background);
 }
 
 .main-section-info-tag {
-    padding: 10rem 0 1rem 0;
+  padding: 10rem 0 1rem 0;
 }
 
 .main-section-servicing-cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .servicing__card {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-
-    width: 19rem;
-    min-height: 20rem;
-    background: white;
-    margin: 1rem 1rem;
-    padding: 3rem;
-    border-radius: 0.15rem;
-    box-shadow: 0 0 28px -20px #1c1c1c;
-    text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 19rem;
+  min-height: 20rem;
+  background: white;
+  margin: 1rem 1rem;
+  padding: 3rem;
+  border-radius: 0.15rem;
+  box-shadow: 0 0 28px -20px #1c1c1c;
+  text-align: left;
+  transition: 0.5s ease-in-out;
 }
 
 .servicing__card h2 {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 .servicing__card p {
-    font-size: 0.8125rem;
+  font-size: 0.8125rem;
 }
 
 .servicing__card:hover {
-    background: #00897b;
-    color: white;
-    box-shadow: 0 0 27px 0 #1c1c1c;
-    transition: 0.2s;
-}
-
-.plan {
-    text-align: center;
-    padding-bottom: 8rem;
-}
-
-.plan__card {
-    display: inline-block;
-    margin: 1rem;
-    width: 20rem;
-    border-bottom: 1px solid var(--border);
-    background: var(--card-bg);
-    text-align: center;
-}
-
-.plan__card-header {
-    position: relative;
-    border-radius: 0.15rem;
-    background: var(--card-bg-header);
-    color: var(--text-color-header);
-}
-
-.plan__card-header-title {
-    padding-top: 2rem;
-}
-
-.plan__card-header-value {
-    padding: 1rem 0 3.5rem 0;
-    font-size: 3rem;
-}
-
-.plan__card-header-value sup {
-    position: relative;
-    top: -5px;
-    margin-right: 0.5rem;
-    font-size: 1rem;
-}
-
-.plan__card-header-value sub {
-    position: relative;
-    bottom: 10px;
-    margin-left: 0.5rem;
-    font-size: 1rem;
-}
-
-.plan__card-header::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    border: 50px solid transparent;
-    border-right: 20rem solid var(--card-bg);
-    border-bottom: 0 solid var(--card-bg);
-}
-
-.plan__card__features {
-    margin: 1rem auto;
-    width: 40%;
-    color: var(--list-text-color);
-}
-
-.plan__card__features li {
-    margin-bottom: 1rem;
-    padding-bottom: 0.55rem;
-    border-bottom: 1px solid var(--border);
-    list-style: none;
-}
-
-.plan__card__cta-btn {
-    display: block;
-    width: 55%;
-    margin: 2rem auto;
-    padding: 1rem 0;
-    border: 2px solid var(--button-border);
-    border-radius: 0.3rem;
-
-    background: var(--button-bg);
-    color: var(--button-text-color);
-
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.plan__card:hover {
-    box-shadow: 0 0 28px -20px var(--shadow);
-    transition: 0.2s;
-}
-
-.plan__card__cta-btn:hover {
-    border: 2px solid var(--button-border-hover);
-    background: var(--button-bg-hover);
-    color: var(--button-text-color-hover);
-    transition: 0.2s;
+  background: #00897b;
+  color: white;
+  box-shadow: 0 0 27px 0 #1c1c1c;
 }

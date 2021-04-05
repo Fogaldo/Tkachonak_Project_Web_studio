@@ -1,4 +1,4 @@
-.bg-page{
+.bg-page {
   position: fixed;
   top: 0;
   left: 0;
@@ -8,6 +8,7 @@
 }
 
 .homepage h1 {
+  margin: 0 1rem;
   font-size: 3em;
   color: var(--h-tag-color);
   text-align: center;
@@ -16,6 +17,7 @@
 }
 
 .homepage h3 {
+  margin: 0 1rem;
   text-align: center;
   color: var(--h-tag-color);
   font-size: 2rem;
@@ -56,6 +58,6 @@
   background: rgba(38, 38, 38, 0.53);
 }
 
-.main-footer{
+.main-footer {
   position: static;
 }
