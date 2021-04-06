@@ -15,6 +15,20 @@
   margin: 1rem 2rem;
 }
 
+.about-info__card:hover{
+  animation: infoCardAnim 1s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes infoCardAnim {
+  from{
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
 .about-info__card img {
   width: 70%;
   margin-bottom: 1em;
