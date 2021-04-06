@@ -52,6 +52,7 @@ main {
   position: relative;
   width: 460px;
   height: 200px;
+  border-radius: .15rem;
   object-fit: cover;
   background: #00897b;
 }
