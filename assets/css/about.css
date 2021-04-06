@@ -1,0 +1,31 @@
+.main-content {
+  background: white;
+}
+
+.about-tag {
+  padding-top: 5rem;
+}
+
+.about-info {
+  text-align: center;
+}
+
+.about-info__card {
+  display: inline-block;
+  margin: 1rem 2rem;
+}
+
+.about-info__card img {
+  width: 70%;
+  margin-bottom: 1em;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.position {
+  margin: 0.625rem;
+  font-size: 1.25em;
+  color: var(--graphite-black);
+}

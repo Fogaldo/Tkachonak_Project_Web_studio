@@ -1,0 +1,46 @@
+.about-tag {
+  padding: 5rem 0 0 0;
+}
+
+.main-content {
+  background: var(--main-background);
+}
+
+.main-section-info-tag {
+  padding: 10rem 0 1rem 0;
+}
+
+.main-section-servicing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.servicing__card {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 19rem;
+  min-height: 20rem;
+  background: white;
+  margin: 1rem 1rem;
+  padding: 3rem;
+  border-radius: 0.15rem;
+  box-shadow: 0 0 28px -20px #1c1c1c;
+  text-align: left;
+  transition: 0.5s ease-in-out;
+}
+
+.servicing__card h2 {
+  padding: 1rem 0;
+}
+
+.servicing__card p {
+  font-size: 0.8125rem;
+}
+
+.servicing__card:hover {
+  background: #00897b;
+  color: white;
+  box-shadow: 0 0 27px 0 #1c1c1c;
+}
